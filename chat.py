@@ -1,7 +1,7 @@
 import streamlit as st
 from langchain.llms import OpenAI
 
-st.title('🦜🔗 Chat With Me!')
+st.title('Chat With Me Using Langchain!')
 
 openai_api_key = st.sidebar.text_input('OpenAI API Key')
 
